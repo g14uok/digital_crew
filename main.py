@@ -54,7 +54,7 @@ def get_website_content(url):
 url = "https://retirementplans.vanguard.com/VGApp/pe/faces/web/help/ihelp/HelpCenter.xhtml"
 generic_qa = get_website_content(url)
 len(generic_qa.split())
-#less than 5000 tokens
+#less than 5k tokens. Our model accepts upto 200k tokens
 '''3768''
 
 
