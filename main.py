@@ -62,7 +62,7 @@ len(generic_qa.split())
 
 #Preparing the necessary prompt along with the generic and specific q&a
 
-question = "Can you check my account credit?"
+question = "Can you check my account balance?"
 
 prompt = f""" Hi Claude, be an AI assistant in order to answer the user's account SPECIFIC questions give below
 First classify the user question in to Type either "SPECIFIC" or "GENERIC" and answer differently for each Type
