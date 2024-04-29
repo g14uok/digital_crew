@@ -1,0 +1,10 @@
+{
+"What is my account balance?" : "account_balamce",
+"What is the Commission rate?" : "commission_rate",
+"What is the yield on my account?" : "yield",
+"What are the top 10 securities my fund has invested in?" : "top_10_securities",
+"What sectors does the fund invested in?" : "invested_securities",
+"What's the historical performance of my account?" : "performance_history",
+"What's my contribution to my account so far this year?" : "this_year_contribution",
+"How's my portfolio performed compared to market this week?" : "portfolio_compared_market"
+}
