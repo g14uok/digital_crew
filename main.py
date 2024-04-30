@@ -55,7 +55,7 @@ url = "https://retirementplans.vanguard.com/VGApp/pe/faces/web/help/ihelp/HelpCe
 generic_qa = get_website_content(url)
 len(generic_qa.split())
 #less than 5k tokens. Our model accepts upto 200k tokens
-'''3768''
+'''3768'''
 
 
 
@@ -102,7 +102,6 @@ message = client.messages.create(
     model="claude-3-opus-20240229",
 )
 print(message.content[0].text)
-
 '''
 Type: SPECIFIC
 Answer: account_balance
